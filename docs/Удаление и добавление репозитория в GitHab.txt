@@ -1,0 +1,11 @@
+# Посмотреть текущие remote
+git remote -v
+
+# Удалить текущий remote
+git remote remove origin
+
+# Добавить новый remote с правильным URL
+git remote add origin https://github.com/Ratilife/my_code_analyzer.git
+
+# Проверить, что всё настроено правильно
+git remote -v

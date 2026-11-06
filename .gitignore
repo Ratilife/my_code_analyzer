@@ -1,0 +1,23 @@
+# Виртуальные окружения
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Редакторы и IDE
+.idea/
+.vscode/
+
+# Переменные окружения и локальные настройки
+.env
+.env.*
